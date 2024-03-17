@@ -3,8 +3,6 @@ import "izitoast/dist/css/iziToast.min.css";
 
  const delayForm=document.querySelector(".form");
 
-
-
 delayForm.addEventListener('submit', event => {
   event.preventDefault();
   const timer = event.currentTarget.elements.delay.value;
@@ -26,7 +24,7 @@ delayForm.addEventListener('submit', event => {
     }, timer);
   });
 
-// Registering promise callbacks
+
 promise
   .then(value => {
     iziToast.success({  

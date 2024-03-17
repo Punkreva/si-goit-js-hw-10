@@ -15,7 +15,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(102, 145, 144);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,7 +27,7 @@
 body {
   display: block;
   font-size: large;
-  background-color: rgb(231, 229, 229);
+  background-color: rgb(102, 145, 144);
   padding-top: 10px;
   padding-bottom: 100%;
   padding-left: 10px;
@@ -38,7 +38,7 @@ body {
   margin: 20px 10px;
   padding: 10px;
   background-color: rgb(87, 84, 84);
-  border: 1px double rgb(47, 47, 182);
+  border: 1px double rgb(210, 180, 140);
   border-radius: 10px;
   color: aliceblue;
 }
