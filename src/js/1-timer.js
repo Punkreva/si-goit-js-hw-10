@@ -1,6 +1,5 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
-
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -13,7 +12,6 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-   
     userSelectedDate = selectedDates[0];
     timeInterval = userSelectedDate - options.defaultDate;
 
@@ -38,11 +36,8 @@ function convertMs(ms) {
   const day = hour * 24;
 
   const days = Math.floor(ms / day);
- 
   const hours = Math.floor((ms % day) / hour);
-  
   const minutes = Math.floor(((ms % day) % hour) / minute);
-
   const seconds = Math.floor((((ms % day) % hour) % minute) / second);
 
   return { days, hours, minutes, seconds };
